@@ -1,0 +1,41 @@
+- summary: |
+    Нет нумерации страниц
+  environment: |
+    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+    ОС Windows 10
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Нажать кнопку "Next"
+  expected-result: |
+    Переход на следующую страницу и отображение номера страницы
+  actual-result: |
+    Переход на следующую страницу осуществился, номер страницы не отобразился
+
+- summary: |
+    Очистка корзины
+  environment: |
+    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+    ОС Windows 10
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Добавить товар в корзину
+    3. Перейти в корзину и убедится что товар в корзине
+    4. Обновить страницу браузера
+  expected-result: |
+    Откроется страница с пустой козиной
+  actual-result: |
+    Корзина не очистилась
+    
+- summary: |
+    Переход на главную (первую) страницу
+  environment: |
+    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+    ОС Windows 10
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Перейти на следующую страницу
+    3. Нажать кнопку "Магазин"
+  expected-result: |
+    Выполнится переход на главную (первую) страницу
+  actual-result: |
+    Переход не происходит, ничего не меняется
