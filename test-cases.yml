@@ -109,10 +109,14 @@
   Сайт должен быть протестирован на совместимость с последними версиями браузеров
   prerequisites: |
    Открыта главная страница
+  test-data: |
+   Google Chrome last version
+   Firefox last version
+   Edge last version
   steps:
    - Открыть сайт в разных браузерах
   expected-result: |
-    Сайт отображается везде одинаково
+    Отсутствие отличий в отображении
     
 - summary: |
    Удобство использования
