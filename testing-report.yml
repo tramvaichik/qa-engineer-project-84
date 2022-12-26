@@ -6,14 +6,15 @@
      При поиске по категории "laptops", отображаются товары категории "laptops" 
   status: pass
   
-  - summary: |
+- summary: |
      При поиске по категории "fragrances", отображаются товары категории "fragrances" 
   status: pass
   
-  - summary: |
+- summary: |
      При поиске по категории "skincare", отображаются товары категории "skincare" 
   status: pass
- - summary: |
+
+- summary: |
      При поиске по категории "smartphones", отображаются товары категории "smartphones" 
   status: pass
 
@@ -68,27 +69,27 @@
 - summary: |
    Переход на главную (первую) страницу
   status: fail
-  - summary: |
+- summary: |
      Просмотр товара и информации о нём 
   status: pass
   
-  - summary: |
+- summary: |
      Добавление товаров в корзину 
   status: pass
   
-  - summary: |
+- summary: |
      Просмотр содержимого корзины 
   status: pass
   
-  - summary: |
+- summary: |
      Фильтрация товаров
   status: pass
   
-  - summary: |
+- summary: |
      Адаптивность 
   status: pass
   
-  - summary: |
+- summary: |
    Кроссбраузерность
   status: pass
     
