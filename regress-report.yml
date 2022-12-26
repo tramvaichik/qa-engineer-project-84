@@ -56,4 +56,62 @@ test-cases:
    Переход на главную (первую) страницу
   status: pass
 
+  bugreports: []---
+test-cases:
+- summary: |
+     При поиске по категории "smartphones", отображаются товары категории "smartphones" 
+  status: pass
+
+- summary: |
+     При поиске по категории "laptops", отображаются товары категории "laptops" 
+  status: pass
+  
+- summary: |
+     При поиске по категории "fragrances", отображаются товары категории "fragrances" 
+  status: pass
+  
+- summary: |
+     При поиске по категории "skincare", отображаются товары категории "skincare" 
+  status: pass
+  
+- summary: |
+     Просмотр товара и информации о нём 
+  status: pass
+  
+- summary: |
+     Добавление товаров в корзину 
+  status: pass
+  
+- summary: |
+     Просмотр содержимого корзины 
+  status: pass
+  
+- summary: |
+     Фильтрация товаров
+  status: pass
+  
+- summary: |
+     Адаптивность 
+  status: pass
+  
+- summary: |
+   Кроссбраузерность
+  status: pass
+    
+- summary: |
+   Удобство использования
+  status: fail
+    
+- summary: |
+   Очистка корзины
+  status: fail
+   
+- summary: |
+   Сайт не перезагружается
+  status: pass
+   
+- summary: |
+   Переход на главную (первую) страницу
+  status: pass
+
   bugreports: []
