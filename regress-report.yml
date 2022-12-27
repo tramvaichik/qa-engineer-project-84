@@ -2,7 +2,7 @@
 test-cases:
   - summary: >
       При поиске товаров по категории, отображаются товары выбранной категории
-      status: pass
+    status: pass
   - summary: |
       Просмотр товара и информации о нём 
     status: pass
