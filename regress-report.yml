@@ -1,20 +1,8 @@
 ---
 test-cases:
   - summary: >
-      При поиске по категории "smartphones", отображаются товары категории
-      "smartphones" 
-    status: pass
-  - summary: >
-      При поиске по категории "laptops", отображаются товары категории "laptops" 
-    status: pass
-  - summary: >
-      При поиске по категории "fragrances", отображаются товары категории
-      "fragrances" 
-    status: pass
-  - summary: >
-      При поиске по категории "skincare", отображаются товары категории
-      "skincare" 
-    status: pass
+      При поиске товаров по категории, отображаются товары выбранной категории
+      status: pass
   - summary: |
       Просмотр товара и информации о нём 
     status: pass
@@ -22,22 +10,16 @@ test-cases:
       Добавление товаров в корзину 
     status: pass
   - summary: |
-      Просмотр содержимого корзины 
+      Фильтрация товаров по бренду
     status: pass
   - summary: |
-      Фильтрация товаров
-    status: pass
-  - summary: |
-      Адаптивность 
+      Проверка адаптивности под мобильные устройства
     status: pass
   - summary: |
       Кроссбраузерность
     status: pass
   - summary: |
-      Удобство использования
-    status: fail
-  - summary: |
-      Очистка корзины
+      Проверка отображения номеров страниц
     status: fail
   - summary: |
       Сайт не перезагружается
